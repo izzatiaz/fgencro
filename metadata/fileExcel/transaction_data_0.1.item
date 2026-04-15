@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_JNzNkCD2EfGaG-ujHcrDsQ" name="transaction_data" dataPackage="_JNzNkSD2EfGaG-ujHcrDsQ" Server="Localhost 127.0.0.1" FilePath="/Users/abuzaki/Downloads/DI/Transaction Data.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="RapidMiner Data" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="RapidMiner Data:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_JNzNkSD2EfGaG-ujHcrDsQ" name="default" dataManager="_JNzNkCD2EfGaG-ujHcrDsQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_JNzNkiD2EfGaG-ujHcrDsQ" id="_AGgR4CD2EfGaG-ujHcrDsQ" label="transactiondata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JNzNkyD2EfGaG-ujHcrDsQ" label="CustomerId" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JNzNlCD2EfGaG-ujHcrDsQ" label="TransactionValue" length="18" precision="16" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JNzNlSD2EfGaG-ujHcrDsQ" label="PaymentMethod" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JNzNliD2EfGaG-ujHcrDsQ" label="Date" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

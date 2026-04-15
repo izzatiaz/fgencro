@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_OZ1_MSD3EfGaG-ujHcrDsQ" name="First_name" id="_OZ1_MCD3EfGaG-ujHcrDsQ" dataPackage="_OZ1_MiD3EfGaG-ujHcrDsQ" Server="Localhost 127.0.0.1" FilePath="/Users/abuzaki/Downloads/DI/Firstname Mapping.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_OZ1_MiD3EfGaG-ujHcrDsQ" name="default" dataManager="_OZ1_MSD3EfGaG-ujHcrDsQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_OZ2mQCD3EfGaG-ujHcrDsQ" id="_E9TzUCD3EfGaG-ujHcrDsQ" label="firstname">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OZ2mQSD3EfGaG-ujHcrDsQ" label="Name" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OZ2mQiD3EfGaG-ujHcrDsQ" label="Gender" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

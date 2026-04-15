@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="__jRpACD1EfGaG-ujHcrDsQ" name="Churn_Data" dataPackage="__jRpASD1EfGaG-ujHcrDsQ" Server="Localhost 127.0.0.1" FilePath="/Users/abuzaki/Downloads/DI/Churn Data.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="RapidMiner Data" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="RapidMiner Data:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="__jRpASD1EfGaG-ujHcrDsQ" name="default" dataManager="__jRpACD1EfGaG-ujHcrDsQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="__jRpAiD1EfGaG-ujHcrDsQ" id="_4te14CD1EfGaG-ujHcrDsQ" label="churndata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__jRpAyD1EfGaG-ujHcrDsQ" label="CustomerId" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__jRpBCD1EfGaG-ujHcrDsQ" label="DateChurn" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

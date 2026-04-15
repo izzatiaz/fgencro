@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_4zNtUCmvEfGwbuACrNMKng" name="TransactionData1" dataPackage="_4zO7cCmvEfGwbuACrNMKng" Server="Localhost 127.0.0.1" FilePath="/Users/abuzaki/Downloads/Transaction Data.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_4zO7cCmvEfGwbuACrNMKng" name="default" dataManager="_4zNtUCmvEfGwbuACrNMKng">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_4zO7cSmvEfGwbuACrNMKng" id="_sDU6UCmvEfGwbuACrNMKng" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4zO7cimvEfGwbuACrNMKng" label="CustomerId" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4zO7cymvEfGwbuACrNMKng" label="TransactionValue" length="-1" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4zO7dCmvEfGwbuACrNMKng" label="PaymentMethod" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4zO7dSmvEfGwbuACrNMKng" label="Date" length="19" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
